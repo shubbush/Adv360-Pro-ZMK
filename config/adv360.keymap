@@ -96,11 +96,11 @@
 
         sym_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans            &trans          &trans                &trans       &trans                                      &trans  &trans     &trans                 &trans           &trans             &trans             &trans
+&trans  &trans           &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &trans       &trans                                      &trans  &trans     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH      &trans
+&trans  &kp EXCLAMATION  &kp AT            &kp HASH        &kp DOLLAR            &kp PERCENT  &trans  &trans  &trans      &trans  &trans  &trans  &kp CARET  &kp AMPERSAND          &kp ASTERISK     &kp MINUS          &kp UNDERSCORE     &trans
+&trans  &trans           &trans            &trans          &trans                &trans                       &trans      &trans                  &trans     &trans                 &trans           &kp SINGLE_QUOTE   &kp DOUBLE_QUOTES  &trans
+&trans  &trans           &trans            &trans          &trans                             &trans  &trans  &trans      &trans  &trans  &trans             &trans                 &trans           &trans             &trans             &trans
             >;
         };
 
