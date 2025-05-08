@@ -31,6 +31,7 @@
 
             require-prior-idle-ms = <175>;
             hold-trigger-on-release;
+            quick-tap-ms = <120>;
         };
     };
 
